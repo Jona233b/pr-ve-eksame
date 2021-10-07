@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+header{
+    background-image: url(img/2010-hus-i-træ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.wrap-header{
+display: flex;
+flex-direction: column-reverse;
+height: 450px;
+}
+
+.head-bg{
+    background-color: rgb(43, 38, 38);
+}
+
+.head-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headtext{
+    color: rgb(255, 255, 255);
+    
+}
+.wrap-nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+.wrap-nature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nature-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-galary{
+    background-color: rgb(221, 221, 221);
+}
+
+.img-master{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.img-master div{
+    flex-basis: 33%;
+}
+img{
+    width: 100%;
+}
+
+.udvalg{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/5642_Hejrelunden_\(20\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.wrap-udvalg{
+    margin-top: 10%;
+}
+.udvalg-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ h3{
+     border: solid;
+     border-radius: 35px;
+     padding: 15px;
+ }
+
+footer{
+    background-color: rgb(43, 38, 38);
+    color: rgb(165, 165, 165);
+}
+
+.footwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
